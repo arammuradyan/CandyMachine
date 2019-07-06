@@ -9,7 +9,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
         Machine machine=Machine.getInstance();
-        showMenu(scanner,machine);
+        showMenu(scanner,machine );
     }
 
     public static void showMenu(Scanner scanner,Machine machine){
